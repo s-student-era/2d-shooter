@@ -644,6 +644,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6133311919198301996, guid: 4a009278bd43c0e4c9bca70b6fd5fd66, type: 3}
   m_PrefabInstance: {fileID: 893481691}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1097092189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6816893148955959798, guid: 1c0df30cd27710240931e8cee3eaa949, type: 3}
+  m_PrefabInstance: {fileID: 1602026000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1173206269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,17 +1018,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c0df30cd27710240931e8cee3eaa949, type: 3}
---- !u!114 &1622780861 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6816893148955959799, guid: 1c0df30cd27710240931e8cee3eaa949, type: 3}
-  m_PrefabInstance: {fileID: 1602026000}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1180636e0c9d2c14fb8dbba577f09731, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1741396668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,10 +1608,18 @@ PrefabInstance:
       propertyPath: m_MatchWidthOrHeight
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5667439539794259190, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6490392976040855282, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1622780861}
+      objectReference: {fileID: 1097092189}
+    - target: {fileID: 6490392976040855282, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7576967929317050878, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
       propertyPath: m_IsActive
       value: 0
