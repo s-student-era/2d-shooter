@@ -1777,25 +1777,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2954475504476588191, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6490392976040855282, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1622780861}
-    - target: {fileID: 7576967929317050878, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7823545980264223793, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
       propertyPath: m_Name
       value: Game Canvas UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 8307618823964085679, guid: 893685fd184eb72459cfc05dd4902447, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
