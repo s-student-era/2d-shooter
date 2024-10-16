@@ -337,15 +337,19 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void GameOver()
     {
+        Debug.Log("run1");
         gameIsOver = true;
         if (gameOverEffect != null)
         {
             Instantiate(gameOverEffect, transform.position, transform.rotation, null);
+            Debug.Log("run2");
         }
         if (uiManager != null)
         {
+            Debug.Log("run3");
             uiManager.allowPause = false;
             uiManager.GoToPage(gameOverPageIndex);
+
         }
     }
 }

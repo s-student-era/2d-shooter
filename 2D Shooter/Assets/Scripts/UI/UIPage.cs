@@ -11,6 +11,8 @@ public class UIPage : MonoBehaviour
     [Tooltip("The default UI to have selected when opening this page")]
     public GameObject defaultSelected;
 
+
+   
     /// <summary>
     /// Description:
     /// Sets the selected UI selectable to the default defined by this UIPage

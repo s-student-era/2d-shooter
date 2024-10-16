@@ -228,10 +228,14 @@ public class UIManager : MonoBehaviour
     /// <param name="pageIndex">The index in the page list to go to</param>
     public void GoToPage(int pageIndex)
     {
+        Debug.Log(pages.Count);
+       
+        
         if (pageIndex < pages.Count && pages[pageIndex] != null)
         {
             SetActiveAllPages(false);
             pages[pageIndex].gameObject.SetActive(true);
+           
             pages[pageIndex].SetSelectedUIToDefault();
         }
     }
